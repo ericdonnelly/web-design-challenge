@@ -5,6 +5,12 @@ body{
     line-height: 150%;
     color black;
 }
+a {
+    color: #0074f8;
+  }
+  a:hover, a:active, a:focus {
+    color:rgb(107, 217, 231);
+  }
 .box{
     text-align: left;
     border-radius: 10px;
