@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Humidity</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+             crossorigin="anonymous">
+
+  <!--CSS Link-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+
+<body>
+
+<div class="container-fluid">
+	<div class="row" style="padding-bottom: 30px;">
+		<div class="col-md-6" style="background-color: #ffff;">
+			 
+			<button type="button" class="btn btn-link">
+				<a class="col-md-6" style="background-color: #ffff;" href="index.html">Latitude</a>
+			</button>
+		</div>
+		<div class="col-md-6" style="background-color: #ffff;">
+			<ul class="nav">
+				<li class="nav-item dropdown ml-md-auto">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"; style="background-color: #fff;">Plots</a>
+				   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="temperature.html">Max Temperature</a> <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a><a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+				   </div>
+			   </li>				
+				<li class="nav-item">
+					<a class="nav-link active" href="comparisons.html" style="background-color: #fff;">Comparisons</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="data.html" style="background-color: #fff;">Data</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row" style="padding-bottom: 30px;">
+		<div class="col-md-12">
+            <div class="box-2" style="background-color: #ffff;"><center>
+				<h3>
+					Visualizations
+            	</h3>
+				<div id="thumbs">
+                    <a id="single_image1" href="temperature.html"><img src="Resources/Images/latvtemp.png" height="160"/></a>
+                	<a id="single_image2" href="humidity.html"><img src="Resources/Images/latvhumidity.png" height="160"/></a>
+                	<br><br><br>
+                	<a id="single_image3" href="cloudiness.html"><img src="Resources/Images/latvcloudiness.png" height="160"/></a>
+					<a id="single_image4" href="windspeed.html"><img src="Resources/Images/latvwindspeed.png" height="160"/></a>
+					<span class="stretch"></span></center>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
