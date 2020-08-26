@@ -1,6 +1,6 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
-This project can be viewed on the web at https://ericdonnelly.github.io/ [here](https://ericdonnelly.github.io/)
+This project can be viewed on the web [here](https://ericdonnelly.github.io/)
 
 ## Background
 
