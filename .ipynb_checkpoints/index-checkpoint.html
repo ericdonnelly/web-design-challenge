@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Windspeed</title>
+        <title>Weather Visualization Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Bootstrap CSS -->
@@ -23,7 +22,7 @@
 		<div class="col-md-6" style="background-color: #ffff;">
 			 
 			<button type="button" class="btn btn-link">
-				<a class="col-md-6" style="background-color: #ffff;" href="index.html">Latitude</a>
+				<a class="col-md-6" href="index.html">Latitude</a>
 			</button>
 		</div>
 		<div class="col-md-6" style="background-color: #ffff;">
@@ -45,16 +44,28 @@
 		</div>
 	</div>
 	<div class="row" style="padding-bottom: 30px;">
-		<div class="col-md-12">
-            <div class="box-2" style="background-color: #ffff;"><center>
+		<div class="col-md-6">
+			<div class="box" style="background-color: #ffff;">
+			<h3>
+				Summary: Latitude vs. X
+			</h3><img src="Resources/Images/latvtemp.png" align="left" height="250"/>
+			<p class="text-left">
+				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+			</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+            <div class="box" style="background-color: #ffff;"><center>
 				<h3>
-					Wind Speed
+					Visualizations
             	</h3>
-				<img src="Resources/Images/latvwindspeed.png" align="left" height="250"/>
-				<p class="text-left"><br><br>
-				Wind speed appears to increase slighly as we move away from the equator. Regardless of latitude, wind speed 
-				typically falls between 0 and 15 mph.
-				</p>
+				<div id="thumbs">
+                    <a id="single_image1" href="temperature.html"><img src="Resources/Images/latvtemp.png" height="160"/></a>
+                	<a id="single_image2" href="humidity.html"><img src="Resources/Images/latvhumidity.png" height="160"/></a>
+                	<br><br><br>
+                	<a id="single_image3" href="cloudiness.html"><img src="Resources/Images/latvcloudiness.png" height="160"/></a>
+					<a id="single_image4" href="windspeed.html"><img src="Resources/Images/latvwindspeed.png" height="160"/></a>
+					<span class="stretch"></span></center>
 				</div>
 			</div>
 		</div>
