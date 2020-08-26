@@ -5,8 +5,17 @@ body{
     line-height: 150%;
     color black;
 }
+h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #0C8AAB;
+}
 a {
-    color: #0074f8;
+    color: #0C8AAB;
+    font-weight: bold;
+    text-decoration: none;
   }
   a:hover, a:active, a:focus {
     color:rgb(107, 217, 231);
